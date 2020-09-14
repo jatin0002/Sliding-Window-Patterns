@@ -1,5 +1,15 @@
 import java.util.Arrays;
 
+// Problem Statement
+
+// Given an array, find the average of all contigeous subarray of size k
+
+// Sample Input
+// arr = [1, 3, 2, 6 , -1, 4, 1, 8, 2];
+
+// Sample Output
+// [2.2, 2.8, 2.4, 3.6, 2.8]
+
 class AverageSumK {
     public static double[] ContigeousSubArrayWithAverageSumK(int[] arr, int k) {
         double[] result = new double[arr.length - k + 1];
